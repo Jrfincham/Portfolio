@@ -12,23 +12,153 @@
     <!-- endbower -->
     <!-- endbuild -->
 
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
+
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
   <body>
 
-    <div class="container" ng-view>
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">Jason Fincham</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="https://github.com/Jrfincham"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/finchamjason"><i class="fa fa-linkedin"></a></i></li>
+          <li><a href="mailto:jrfincham@yahoo.com"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="tel://1-678-232-1220">678-232-1220</a></li>
+        </ul>
 
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      </div>
+    </nav>
+
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center white-text text-lighten-2">Let's Create Experiences</h1>
+          <div class="row center">
+            <h5 class="header col s12 dark"></h5>
+          </div>
+          <br><br>
+        </div>
+      </div>
+      <div class="parallax"><img src="../images/guitar.jpg" alt="Unsplashed background img 2"></div>
     </div>
+
+
+    <div class="container">
+      <div class="section">
+        <div class="row center">
+          <h3 class="header col s12 dark">Portfolio</h3>
+        </div>
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><img class="responsive-img" src="../images/barbutler.png"></h2>
+              <h5 class="center">Bar Butler</h5>
+
+              <p class="light">This is an app that helps with keeping inventory by storing keg weights and then can estimate the amount of time it will take for that keg to run out.</p>
+              <p>See the  <a href="https://github.com/bar-butler/bar_butlerFrontEnd">code</a> here or view the <a href="http://development.bar-butler.divshot.io/#/">project</a> live.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><img class="responsive-img" src="../images/bandlist.png"></h2>
+              <h5 class="center">Band List</h5>
+
+              <p class="light">This is an app that will save a list of bands coming to an area</p>
+              <p>See the  <a href="https://github.com/Jrfincham/ShowListAngular">code</a> here or view the <a href="http://development.bandlistangular.divshot.io/#/">project</a> live.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><img class="responsive-img" src="../images/checkers1.png"></h2>
+              <h5 class="center">Baja Checkers</h5>
+
+              <p class="light">This is my first group assignment and my partner and I created a checkers app with a back-end and a mobile version</p>
+              <p>See the  <a href="https://github.com/Baja-Game/js_checkers">code</a> here or view the <a href="http://development.bholben-checkers.divshot.io/">project</a> live.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+      <div class="parallax"><img src="../images/canada.jpg"></div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="fa fa-user"></i></h3>
+            <h4>About Me</h4>
+            <p class="center-align light">Six months ago I decided to make a career change. I changed from working as a manager in retail to fulfill a lifetime goal of learning how to code. <span class="italic">Why would I do that?</span> </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+      <div class="parallax"><img src="../images/sports.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Company Bio</h5>
+            <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Settings</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Link 1</a></li>
+              <li><a class="white-text" href="#!">Link 2</a></li>
+              <li><a class="white-text" href="#!">Link 3</a></li>
+              <li><a class="white-text" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Link 1</a></li>
+              <li><a class="white-text" href="#!">Link 2</a></li>
+              <li><a class="white-text" href="#!">Link 3</a></li>
+              <li><a class="white-text" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
+      </div>
+    </footer>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
     <script src="../bower_components/materialize/dist/js/materialize.min.js"></script>
-    <script src="../bower_components/angular/angular.min.js"></script>
-    <script src="../bower_components/angular-route/angular-route.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

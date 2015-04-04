@@ -1,17 +1,8 @@
-;(function() {
-  "use strict";
+(function($){
+  $(function(){
 
-  angular.module('Portfolio',['ngRoute'])
+    $('.button-collapse').sideNav();
+    $('.parallax').parallax();
 
-  .config(['$routeProvider', function($routeProvider){
-
-    $routeProvider
-
-    .when('/', {
-      templateUrl: 'scripts/home/home.tpl.html',
-      controller: 'HomeController'
-    });
-
-  }]);
-
-}());
+  }); 
+})(jQuery);

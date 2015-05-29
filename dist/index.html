@@ -5,26 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>Portfolio</title>
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
-    <link rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.min.css" />
-    <!-- endbower -->
-    <!-- endbuild -->
+    <link rel="stylesheet" href="styles/vendor.css">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
 
-    <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
   </head>
   <body>
     <a name="top"></a>
     <nav>
       <div class="nav-wrapper teal">
         <li id="name" class="brand-logo white-text">JasonFincham</li>
-        <a href="#" data-activates="mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <a href="#" data-activates="mobile" class="button-collapse"><i id="hamburger" class="fa fa-bars"></i></a>
         <ul id="topLinks" class="right hide-on-med-and-down">
           <li><a class="white-text" href="https://github.com/Jrfincham"><i class="fa fa-github fa-lg"></i></a></li>
           <li><a class="white-text" href="https://www.linkedin.com/in/finchamjason"><i class="fa fa-linkedin fa-lg"></i></a></li>
@@ -151,16 +144,8 @@
       </div>
     </footer>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../bower_components/underscore/underscore.js"></script>
-    <script src="../bower_components/materialize/dist/js/materialize.min.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
+    <script src="scripts/vendor.js"></script>
 
-        <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
-        <!-- endbuild -->
 </body>
 </html>

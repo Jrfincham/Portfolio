@@ -1,7 +1,14 @@
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
+nav{
+  #name{
+    padding-left: 1em;
+  }
+  #topLinks{
+    padding-right: 1em;
+  }
+  #phone{
+    padding-top: 0.3em;
+  }
 }
 
 p {
@@ -50,10 +57,7 @@ p {
 
 
 #bottomLinks li{
-  display: inline;
-  padding: 2em;
-  text-align: center;
-  padding-top: 4em;
+  padding: .2em;
 }
 
 #experience li{
